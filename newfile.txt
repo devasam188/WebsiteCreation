@@ -1,1 +1,6 @@
 "This is a new file" 
+git checkout abs	Switch to the "abs" branch
+echo "Text" > newfile.txt	Create a new file
+git add newfile.txt	Stage the specific file
+git commit -m "Added newfile.txt"	Commit with a message
+git push origin abs	Push changes to GitHub
